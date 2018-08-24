@@ -1,5 +1,5 @@
 const normalDpiZoom = 1;
-const highDpiZoom = 2;
+const highDpiZoom = 1.25;
 
 function zoomSettingsSet() {
   if (chrome.runtime.lastError) {
